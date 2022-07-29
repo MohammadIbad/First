@@ -3,10 +3,11 @@
 #include <time.h>
 /* TAX INVOICE */
 int main() {
-	int i,n,sum=0,count=0;
+	int i,n;
 	char a[50];
 	char b;
-	for(i=1;;i++){	
+	for(i=1;;i++){
+	int sum=0,count=0;
 	printf("\n AVAILABLE ITEM NUMBERS");
 	printf("\n 1-->Lays");
 	printf("\n 2-->Maaza Mango(1.2L)");
